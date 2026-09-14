@@ -1,0 +1,8 @@
+{
+  "active": true,
+  "label": "Daily refresh \u00b7 8:00 AM Central",
+  "timezone": "America/Chicago",
+  "hour": 8,
+  "automation_id": "daily-income-dashboard",
+  "first_scheduled_run_observed": false
+}

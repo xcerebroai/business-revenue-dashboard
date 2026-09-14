@@ -1,0 +1,143 @@
+{
+  "period_start": "2026-01-01T00:00:00-06:00",
+  "period_end_exclusive": "2026-09-14T22:21:43.883Z",
+  "source": "bill",
+  "checked_at": "2026-09-14T22:21:43.883Z",
+  "retrieval_complete": true,
+  "coverage_note": "All 81 history records loaded with date filters cleared; 11 are dated 2026. Includes 9 paid ePayments and 1 recorded cash receipt; excludes one voided ePayment. Cash delivery date July 27, 2026 follows BILL\u2019s recorded date. Unpaid invoices are not incoming money.",
+  "groups": [],
+  "rows": [
+    {
+      "date": "2026-01-23",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 70450,
+      "fee_minor": 0,
+      "net_minor": 70450,
+      "count": 1,
+      "month": "2026-01",
+      "source": "bill",
+      "category": "paid_epayment"
+    },
+    {
+      "date": "2026-02-23",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 75425,
+      "fee_minor": 0,
+      "net_minor": 75425,
+      "count": 1,
+      "month": "2026-02",
+      "source": "bill",
+      "category": "paid_epayment"
+    },
+    {
+      "date": "2026-03-23",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 85250,
+      "fee_minor": 0,
+      "net_minor": 85250,
+      "count": 1,
+      "month": "2026-03",
+      "source": "bill",
+      "category": "paid_epayment"
+    },
+    {
+      "date": "2026-04-20",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 92775,
+      "fee_minor": 0,
+      "net_minor": 92775,
+      "count": 1,
+      "month": "2026-04",
+      "source": "bill",
+      "category": "paid_epayment"
+    },
+    {
+      "date": "2026-05-22",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 78100,
+      "fee_minor": 0,
+      "net_minor": 78100,
+      "count": 1,
+      "month": "2026-05",
+      "source": "bill",
+      "category": "paid_epayment"
+    },
+    {
+      "date": "2026-06-22",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 68500,
+      "fee_minor": 0,
+      "net_minor": 68500,
+      "count": 1,
+      "month": "2026-06",
+      "source": "bill",
+      "category": "paid_epayment"
+    },
+    {
+      "date": "2026-07-27",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 200000,
+      "fee_minor": 0,
+      "net_minor": 200000,
+      "count": 1,
+      "month": "2026-07",
+      "source": "bill",
+      "category": "recorded_cash"
+    },
+    {
+      "date": "2026-07-28",
+      "currency": "USD",
+      "kind": "excluded",
+      "amount_minor": 70925,
+      "fee_minor": 0,
+      "net_minor": 70925,
+      "count": 1,
+      "month": "2026-07",
+      "source": "bill",
+      "category": "void_epayment"
+    },
+    {
+      "date": "2026-08-06",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 70925,
+      "fee_minor": 0,
+      "net_minor": 70925,
+      "count": 1,
+      "month": "2026-08",
+      "source": "bill",
+      "category": "paid_epayment"
+    },
+    {
+      "date": "2026-08-13",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 150000,
+      "fee_minor": 0,
+      "net_minor": 150000,
+      "count": 1,
+      "month": "2026-08",
+      "source": "bill",
+      "category": "paid_epayment"
+    },
+    {
+      "date": "2026-08-25",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 61075,
+      "fee_minor": 0,
+      "net_minor": 61075,
+      "count": 1,
+      "month": "2026-08",
+      "source": "bill",
+      "category": "paid_epayment"
+    }
+  ]
+}

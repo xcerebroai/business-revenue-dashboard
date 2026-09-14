@@ -1,0 +1,131 @@
+{
+  "period_start": "2026-01-01T00:00:00-06:00",
+  "period_end_exclusive": "2026-09-14T22:21:43.883Z",
+  "source": "gusto",
+  "checked_at": "2026-09-14T22:21:43.883Z",
+  "retrieval_complete": true,
+  "coverage_note": "Both signed-in payer profiles reviewed: Operations has 7 current-year payments; Holdings has 2. Descending history reaches 2025. Completed direct deposits only; no scheduled payments counted.",
+  "groups": [
+    "DealMachine Operations, Inc.",
+    "DealMachine Holdings LLC"
+  ],
+  "rows": [
+    {
+      "date": "2026-01-08",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 53215,
+      "fee_minor": 0,
+      "net_minor": 53215,
+      "count": 1,
+      "month": "2026-01",
+      "source": "gusto",
+      "category": "completed_direct_deposit",
+      "group": "DealMachine Holdings LLC"
+    },
+    {
+      "date": "2026-02-10",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 73541,
+      "fee_minor": 0,
+      "net_minor": 73541,
+      "count": 1,
+      "month": "2026-02",
+      "source": "gusto",
+      "category": "completed_direct_deposit",
+      "group": "DealMachine Holdings LLC"
+    },
+    {
+      "date": "2026-03-10",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 64148,
+      "fee_minor": 0,
+      "net_minor": 64148,
+      "count": 1,
+      "month": "2026-03",
+      "source": "gusto",
+      "category": "completed_direct_deposit",
+      "group": "DealMachine Operations, Inc."
+    },
+    {
+      "date": "2026-04-08",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 65838,
+      "fee_minor": 0,
+      "net_minor": 65838,
+      "count": 1,
+      "month": "2026-04",
+      "source": "gusto",
+      "category": "completed_direct_deposit",
+      "group": "DealMachine Operations, Inc."
+    },
+    {
+      "date": "2026-05-11",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 51538,
+      "fee_minor": 0,
+      "net_minor": 51538,
+      "count": 1,
+      "month": "2026-05",
+      "source": "gusto",
+      "category": "completed_direct_deposit",
+      "group": "DealMachine Operations, Inc."
+    },
+    {
+      "date": "2026-06-09",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 48664,
+      "fee_minor": 0,
+      "net_minor": 48664,
+      "count": 1,
+      "month": "2026-06",
+      "source": "gusto",
+      "category": "completed_direct_deposit",
+      "group": "DealMachine Operations, Inc."
+    },
+    {
+      "date": "2026-07-08",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 45578,
+      "fee_minor": 0,
+      "net_minor": 45578,
+      "count": 1,
+      "month": "2026-07",
+      "source": "gusto",
+      "category": "completed_direct_deposit",
+      "group": "DealMachine Operations, Inc."
+    },
+    {
+      "date": "2026-08-10",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 50964,
+      "fee_minor": 0,
+      "net_minor": 50964,
+      "count": 1,
+      "month": "2026-08",
+      "source": "gusto",
+      "category": "completed_direct_deposit",
+      "group": "DealMachine Operations, Inc."
+    },
+    {
+      "date": "2026-09-09",
+      "currency": "USD",
+      "kind": "income",
+      "amount_minor": 64705,
+      "fee_minor": 0,
+      "net_minor": 64705,
+      "count": 1,
+      "month": "2026-09",
+      "source": "gusto",
+      "category": "completed_direct_deposit",
+      "group": "DealMachine Operations, Inc."
+    }
+  ]
+}

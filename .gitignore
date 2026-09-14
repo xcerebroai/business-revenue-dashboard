@@ -4,3 +4,10 @@ work/
 __pycache__/
 *.pyc
 *.zip
+
+# Local authentication and generated recovery archive checksum
+.env
+.env.*
+*.pem
+*.key
+outputs/dashboard-recovery.sha256
