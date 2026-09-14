@@ -1,0 +1,1475 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-09-14T21:35:38.932666+00:00",
+  "period_start": "2026-01-01T00:00:00-06:00",
+  "period_end": "2026-09-14T19:31:21.514136+00:00",
+  "timezone": "America/Chicago",
+  "stripe": {
+    "entity": "Just Jarvis LLC",
+    "retrieved_at": "2026-09-14T19:31:21.514136+00:00",
+    "complete": true,
+    "count": 8472,
+    "pages": 85,
+    "rows": [
+      {
+        "month": "2026-09",
+        "currency": "USD",
+        "category": "financing_paydown",
+        "count": 181,
+        "amount_minor": -214488,
+        "fee_minor": 0,
+        "net_minor": -214488
+      },
+      {
+        "month": "2026-09",
+        "currency": "USD",
+        "category": "charge",
+        "count": 181,
+        "amount_minor": 1072461,
+        "fee_minor": 37167,
+        "net_minor": 1035294
+      },
+      {
+        "month": "2026-09",
+        "currency": "USD",
+        "category": "fee",
+        "count": 24,
+        "amount_minor": -1256,
+        "fee_minor": 45,
+        "net_minor": -1301
+      },
+      {
+        "month": "2026-09",
+        "currency": "USD",
+        "category": "payout",
+        "count": 22,
+        "amount_minor": -953912,
+        "fee_minor": 0,
+        "net_minor": -953912
+      },
+      {
+        "month": "2026-09",
+        "currency": "USD",
+        "category": "payout_minimum_balance_hold",
+        "count": 13,
+        "amount_minor": -374651,
+        "fee_minor": 0,
+        "net_minor": -374651
+      },
+      {
+        "month": "2026-09",
+        "currency": "USD",
+        "category": "payout_minimum_balance_release",
+        "count": 13,
+        "amount_minor": 374651,
+        "fee_minor": 0,
+        "net_minor": 374651
+      },
+      {
+        "month": "2026-08",
+        "currency": "USD",
+        "category": "payout",
+        "count": 50,
+        "amount_minor": -1479819,
+        "fee_minor": 0,
+        "net_minor": -1479819
+      },
+      {
+        "month": "2026-08",
+        "currency": "USD",
+        "category": "financing_paydown",
+        "count": 395,
+        "amount_minor": -493942,
+        "fee_minor": 0,
+        "net_minor": -493942
+      },
+      {
+        "month": "2026-08",
+        "currency": "USD",
+        "category": "charge",
+        "count": 395,
+        "amount_minor": 2469741,
+        "fee_minor": 92968,
+        "net_minor": 2376773
+      },
+      {
+        "month": "2026-08",
+        "currency": "USD",
+        "category": "payout_minimum_balance_release",
+        "count": 25,
+        "amount_minor": 714234,
+        "fee_minor": 0,
+        "net_minor": 714234
+      },
+      {
+        "month": "2026-08",
+        "currency": "USD",
+        "category": "payout_minimum_balance_hold",
+        "count": 25,
+        "amount_minor": -714234,
+        "fee_minor": 0,
+        "net_minor": -714234
+      },
+      {
+        "month": "2026-08",
+        "currency": "USD",
+        "category": "fee",
+        "count": 43,
+        "amount_minor": -2520,
+        "fee_minor": 35,
+        "net_minor": -2555
+      },
+      {
+        "month": "2026-08",
+        "currency": "USD",
+        "category": "risk_reserved_funds",
+        "count": 630,
+        "amount_minor": 0,
+        "fee_minor": 0,
+        "net_minor": 0
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "fee",
+        "count": 53,
+        "amount_minor": -2576,
+        "fee_minor": 46,
+        "net_minor": -2622
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "financing_paydown",
+        "count": 269,
+        "amount_minor": -758657,
+        "fee_minor": 0,
+        "net_minor": -758657
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "charge",
+        "count": 342,
+        "amount_minor": 1809802,
+        "fee_minor": 67455,
+        "net_minor": 1742347
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "risk_reserved_funds",
+        "count": 520,
+        "amount_minor": 0,
+        "fee_minor": 0,
+        "net_minor": 0
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "payout",
+        "count": 38,
+        "amount_minor": -2430849,
+        "fee_minor": 0,
+        "net_minor": -2430849
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "payout_minimum_balance_hold",
+        "count": 20,
+        "amount_minor": -612856,
+        "fee_minor": 0,
+        "net_minor": -612856
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "payout_minimum_balance_release",
+        "count": 20,
+        "amount_minor": 612856,
+        "fee_minor": 0,
+        "net_minor": 612856
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "payout_reversal",
+        "count": 1,
+        "amount_minor": -251316,
+        "fee_minor": 0,
+        "net_minor": -251316
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "financing_payout",
+        "count": 1,
+        "amount_minor": 2070000,
+        "fee_minor": 0,
+        "net_minor": 2070000
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "dispute",
+        "count": 1,
+        "amount_minor": -412723,
+        "fee_minor": 1500,
+        "net_minor": -414223
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "category": "payout",
+        "count": 25,
+        "amount_minor": -1280137,
+        "fee_minor": 0,
+        "net_minor": -1280137
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "category": "payout_minimum_balance_release",
+        "count": 29,
+        "amount_minor": 1442709,
+        "fee_minor": 0,
+        "net_minor": 1442709
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "category": "payout_minimum_balance_hold",
+        "count": 29,
+        "amount_minor": -1442709,
+        "fee_minor": 0,
+        "net_minor": -1442709
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "category": "financing_paydown",
+        "count": 339,
+        "amount_minor": -423996,
+        "fee_minor": 0,
+        "net_minor": -423996
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "category": "charge",
+        "count": 339,
+        "amount_minor": 2120016,
+        "fee_minor": 71711,
+        "net_minor": 2048305
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "category": "fee",
+        "count": 54,
+        "amount_minor": -514,
+        "fee_minor": 48,
+        "net_minor": -562
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "category": "dispute_reversal",
+        "count": 1,
+        "amount_minor": 4043,
+        "fee_minor": 0,
+        "net_minor": 4043
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "category": "dispute",
+        "count": 1,
+        "amount_minor": -1876,
+        "fee_minor": 1500,
+        "net_minor": -3376
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "category": "payout",
+        "count": 20,
+        "amount_minor": -719588,
+        "fee_minor": 0,
+        "net_minor": -719588
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "category": "payout_minimum_balance_hold",
+        "count": 31,
+        "amount_minor": -1498776,
+        "fee_minor": 0,
+        "net_minor": -1498776
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "category": "payout_minimum_balance_release",
+        "count": 31,
+        "amount_minor": 1498776,
+        "fee_minor": 0,
+        "net_minor": 1498776
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "category": "financing_paydown",
+        "count": 357,
+        "amount_minor": -206438,
+        "fee_minor": 0,
+        "net_minor": -206438
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "category": "charge",
+        "count": 357,
+        "amount_minor": 1032223,
+        "fee_minor": 41030,
+        "net_minor": 991193
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "category": "fee",
+        "count": 50,
+        "amount_minor": -4168,
+        "fee_minor": 91,
+        "net_minor": -4259
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "category": "refund",
+        "count": 1,
+        "amount_minor": -29700,
+        "fee_minor": 0,
+        "net_minor": -29700
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "category": "dispute",
+        "count": 2,
+        "amount_minor": -6971,
+        "fee_minor": 3000,
+        "net_minor": -9971
+      },
+      {
+        "month": "2026-04",
+        "currency": "USD",
+        "category": "fee",
+        "count": 55,
+        "amount_minor": -9387,
+        "fee_minor": 146,
+        "net_minor": -9533
+      },
+      {
+        "month": "2026-04",
+        "currency": "USD",
+        "category": "financing_paydown",
+        "count": 365,
+        "amount_minor": -166523,
+        "fee_minor": 0,
+        "net_minor": -166523
+      },
+      {
+        "month": "2026-04",
+        "currency": "USD",
+        "category": "charge",
+        "count": 365,
+        "amount_minor": 832682,
+        "fee_minor": 35221,
+        "net_minor": 797461
+      },
+      {
+        "month": "2026-04",
+        "currency": "USD",
+        "category": "payout",
+        "count": 19,
+        "amount_minor": -522321,
+        "fee_minor": 0,
+        "net_minor": -522321
+      },
+      {
+        "month": "2026-04",
+        "currency": "USD",
+        "category": "payout_minimum_balance_hold",
+        "count": 23,
+        "amount_minor": -679475,
+        "fee_minor": 0,
+        "net_minor": -679475
+      },
+      {
+        "month": "2026-04",
+        "currency": "USD",
+        "category": "payout_minimum_balance_release",
+        "count": 23,
+        "amount_minor": 679475,
+        "fee_minor": 0,
+        "net_minor": 679475
+      },
+      {
+        "month": "2026-04",
+        "currency": "USD",
+        "category": "dispute",
+        "count": 6,
+        "amount_minor": -138500,
+        "fee_minor": 9000,
+        "net_minor": -147500
+      },
+      {
+        "month": "2026-03",
+        "currency": "USD",
+        "category": "fee",
+        "count": 55,
+        "amount_minor": -3412,
+        "fee_minor": 135,
+        "net_minor": -3547
+      },
+      {
+        "month": "2026-03",
+        "currency": "USD",
+        "category": "financing_paydown",
+        "count": 364,
+        "amount_minor": -305194,
+        "fee_minor": 0,
+        "net_minor": -305194
+      },
+      {
+        "month": "2026-03",
+        "currency": "USD",
+        "category": "charge",
+        "count": 364,
+        "amount_minor": 1526027,
+        "fee_minor": 55480,
+        "net_minor": 1470547
+      },
+      {
+        "month": "2026-03",
+        "currency": "USD",
+        "category": "payout",
+        "count": 23,
+        "amount_minor": -1304403,
+        "fee_minor": 0,
+        "net_minor": -1304403
+      },
+      {
+        "month": "2026-03",
+        "currency": "USD",
+        "category": "payout_minimum_balance_hold",
+        "count": 31,
+        "amount_minor": -619012,
+        "fee_minor": 0,
+        "net_minor": -619012
+      },
+      {
+        "month": "2026-03",
+        "currency": "USD",
+        "category": "payout_minimum_balance_release",
+        "count": 31,
+        "amount_minor": 619012,
+        "fee_minor": 0,
+        "net_minor": 619012
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "category": "fee",
+        "count": 48,
+        "amount_minor": -3158,
+        "fee_minor": 114,
+        "net_minor": -3272
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "category": "payout_minimum_balance_hold",
+        "count": 28,
+        "amount_minor": -560000,
+        "fee_minor": 0,
+        "net_minor": -560000
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "category": "payout_minimum_balance_release",
+        "count": 28,
+        "amount_minor": 560000,
+        "fee_minor": 0,
+        "net_minor": 560000
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "category": "financing_paydown",
+        "count": 30,
+        "amount_minor": -20267,
+        "fee_minor": 0,
+        "net_minor": -20267
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "category": "charge",
+        "count": 396,
+        "amount_minor": 1250650,
+        "fee_minor": 48189,
+        "net_minor": 1202461
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "category": "payout",
+        "count": 20,
+        "amount_minor": -2712260,
+        "fee_minor": 0,
+        "net_minor": -2712260
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "category": "refund",
+        "count": 1,
+        "amount_minor": -9700,
+        "fee_minor": 0,
+        "net_minor": -9700
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "category": "financing_payout",
+        "count": 1,
+        "amount_minor": 1410000,
+        "fee_minor": 0,
+        "net_minor": 1410000
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "category": "risk_reserved_funds",
+        "count": 86,
+        "amount_minor": 0,
+        "fee_minor": 0,
+        "net_minor": 0
+      },
+      {
+        "month": "2026-01",
+        "currency": "USD",
+        "category": "payout_minimum_balance_release",
+        "count": 31,
+        "amount_minor": 620000,
+        "fee_minor": 0,
+        "net_minor": 620000
+      },
+      {
+        "month": "2026-01",
+        "currency": "USD",
+        "category": "payout_minimum_balance_hold",
+        "count": 31,
+        "amount_minor": -620000,
+        "fee_minor": 0,
+        "net_minor": -620000
+      },
+      {
+        "month": "2026-01",
+        "currency": "USD",
+        "category": "fee",
+        "count": 53,
+        "amount_minor": -2516,
+        "fee_minor": 94,
+        "net_minor": -2610
+      },
+      {
+        "month": "2026-01",
+        "currency": "USD",
+        "category": "charge",
+        "count": 348,
+        "amount_minor": 1119248,
+        "fee_minor": 43063,
+        "net_minor": 1076185
+      },
+      {
+        "month": "2026-01",
+        "currency": "USD",
+        "category": "risk_reserved_funds",
+        "count": 698,
+        "amount_minor": 0,
+        "fee_minor": 0,
+        "net_minor": 0
+      },
+      {
+        "month": "2026-01",
+        "currency": "USD",
+        "category": "payout",
+        "count": 20,
+        "amount_minor": -1020978,
+        "fee_minor": 0,
+        "net_minor": -1020978
+      },
+      {
+        "month": "2026-01",
+        "currency": "USD",
+        "category": "refund",
+        "count": 1,
+        "amount_minor": -29700,
+        "fee_minor": 0,
+        "net_minor": -29700
+      }
+    ]
+  },
+  "paypal": {
+    "entity": "Just Jarvis LLC \u2014 owner-confirmed payout recipient",
+    "status": "verified_subset",
+    "label": "Checkout subset",
+    "checked_at": "2026-09-14T21:26:23.245822Z",
+    "retrieved_at": "2026-09-14T21:26:23.245822Z",
+    "provider_cutoff": "2026-09-14T19:29:59Z",
+    "count": 150,
+    "pages": 9,
+    "complete": false,
+    "pagination_complete": true,
+    "note": "150 records retrieved. Includes successful Express Checkout receipts, their linked $700 chargeback and $15 dispute fee. Other incoming payments remain excluded. Indexed through Sep 14, 2:29:59 PM CT, 82 seconds before the Stripe cutoff.",
+    "rows": [
+      {
+        "month": "2026-01",
+        "currency": "USD",
+        "category": "charge",
+        "count": 7,
+        "amount_minor": 321600,
+        "fee_minor": 10967,
+        "net_minor": 310633,
+        "source_code": "T0006"
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "category": "charge",
+        "count": 5,
+        "amount_minor": 456906,
+        "fee_minor": 15665,
+        "net_minor": 441241,
+        "source_code": "T0006"
+      },
+      {
+        "month": "2026-03",
+        "currency": "USD",
+        "category": "charge",
+        "count": 8,
+        "amount_minor": 402323,
+        "fee_minor": 13185,
+        "net_minor": 389138,
+        "source_code": "T0006"
+      },
+      {
+        "month": "2026-04",
+        "currency": "USD",
+        "category": "charge",
+        "count": 11,
+        "amount_minor": 997839,
+        "fee_minor": 31986,
+        "net_minor": 965853,
+        "source_code": "T0006"
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "category": "charge",
+        "count": 18,
+        "amount_minor": 1638892,
+        "fee_minor": 52536,
+        "net_minor": 1586356,
+        "source_code": "T0006"
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "category": "charge",
+        "count": 6,
+        "amount_minor": 539882,
+        "fee_minor": 16879,
+        "net_minor": 523003,
+        "source_code": "T0006"
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "charge",
+        "count": 3,
+        "amount_minor": 116967,
+        "fee_minor": 3644,
+        "net_minor": 113323,
+        "source_code": "T0006"
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "fee",
+        "count": 1,
+        "amount_minor": -1500,
+        "fee_minor": 0,
+        "net_minor": -1500,
+        "source_code": "T0114"
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "category": "dispute",
+        "count": 1,
+        "amount_minor": -70000,
+        "fee_minor": 0,
+        "net_minor": -70000,
+        "source_code": "T1201"
+      },
+      {
+        "month": "2026-08",
+        "currency": "USD",
+        "category": "charge",
+        "count": 1,
+        "amount_minor": 104736,
+        "fee_minor": 3704,
+        "net_minor": 101032,
+        "source_code": "T0006"
+      },
+      {
+        "month": "2026-09",
+        "currency": "USD",
+        "category": "charge",
+        "count": 1,
+        "amount_minor": 321723,
+        "fee_minor": 11277,
+        "net_minor": 310446,
+        "source_code": "T0006"
+      }
+    ],
+    "excluded": [
+      {
+        "month": "2026-01",
+        "currency": "USD",
+        "code": "T0001",
+        "status": "S",
+        "category": "payout_or_transfer_requires_review",
+        "amount_minor": 7099,
+        "amount_plus_fee_minor": 7099,
+        "count": 1,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-01",
+        "currency": "USD",
+        "code": "T0403",
+        "status": "R",
+        "category": "transfer_funding_or_withdrawal",
+        "amount_minor": -312966,
+        "amount_plus_fee_minor": -317732,
+        "count": 7,
+        "fee_present_count": 7,
+        "fee_signed_minor": -4766
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "code": "T0001",
+        "status": "S",
+        "category": "payout_or_transfer_requires_review",
+        "amount_minor": 19104,
+        "amount_plus_fee_minor": 19104,
+        "count": 3,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-02",
+        "currency": "USD",
+        "code": "T0403",
+        "status": "R",
+        "category": "transfer_funding_or_withdrawal",
+        "amount_minor": -453440,
+        "amount_plus_fee_minor": -460345,
+        "count": 5,
+        "fee_present_count": 5,
+        "fee_signed_minor": -6905
+      },
+      {
+        "month": "2026-03",
+        "currency": "USD",
+        "code": "T0000",
+        "status": "S",
+        "category": "ambiguous_incoming_payment",
+        "amount_minor": 23500,
+        "amount_plus_fee_minor": 22797,
+        "count": 2,
+        "fee_present_count": 2,
+        "fee_signed_minor": -703
+      },
+      {
+        "month": "2026-03",
+        "currency": "USD",
+        "code": "T0001",
+        "status": "S",
+        "category": "payout_or_transfer_requires_review",
+        "amount_minor": 18294,
+        "amount_plus_fee_minor": 18294,
+        "count": 2,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-03",
+        "currency": "USD",
+        "code": "T0011",
+        "status": "S",
+        "category": "outgoing_payment",
+        "amount_minor": -8000,
+        "amount_plus_fee_minor": -8000,
+        "count": 1,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-03",
+        "currency": "USD",
+        "code": "T0403",
+        "status": "R",
+        "category": "transfer_funding_or_withdrawal",
+        "amount_minor": -415896,
+        "amount_plus_fee_minor": -422229,
+        "count": 6,
+        "fee_present_count": 6,
+        "fee_signed_minor": -6333
+      },
+      {
+        "month": "2026-04",
+        "currency": "USD",
+        "code": "T0000",
+        "status": "S",
+        "category": "ambiguous_incoming_payment",
+        "amount_minor": 69925,
+        "amount_plus_fee_minor": 67834,
+        "count": 1,
+        "fee_present_count": 1,
+        "fee_signed_minor": -2091
+      },
+      {
+        "month": "2026-04",
+        "currency": "USD",
+        "code": "T0001",
+        "status": "S",
+        "category": "payout_or_transfer_requires_review",
+        "amount_minor": 16952,
+        "amount_plus_fee_minor": 16952,
+        "count": 2,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-04",
+        "currency": "USD",
+        "code": "T0403",
+        "status": "R",
+        "category": "transfer_funding_or_withdrawal",
+        "amount_minor": -1031465,
+        "amount_plus_fee_minor": -1047173,
+        "count": 9,
+        "fee_present_count": 9,
+        "fee_signed_minor": -15708
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "code": "T0001",
+        "status": "S",
+        "category": "payout_or_transfer_requires_review",
+        "amount_minor": 10992,
+        "amount_plus_fee_minor": 10992,
+        "count": 3,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "code": "T0011",
+        "status": "S",
+        "category": "outgoing_payment",
+        "amount_minor": -10000,
+        "amount_plus_fee_minor": -10000,
+        "count": 1,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "code": "T0300",
+        "status": "S",
+        "category": "transfer_funding_or_withdrawal",
+        "amount_minor": 10000,
+        "amount_plus_fee_minor": 10000,
+        "count": 1,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-05",
+        "currency": "USD",
+        "code": "T0403",
+        "status": "R",
+        "category": "transfer_funding_or_withdrawal",
+        "amount_minor": -1576802,
+        "amount_plus_fee_minor": -1600814,
+        "count": 16,
+        "fee_present_count": 16,
+        "fee_signed_minor": -24012
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "code": "T0000",
+        "status": "S",
+        "category": "ambiguous_incoming_payment",
+        "amount_minor": 17583,
+        "amount_plus_fee_minor": 17057,
+        "count": 1,
+        "fee_present_count": 1,
+        "fee_signed_minor": -526
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "code": "T0001",
+        "status": "S",
+        "category": "payout_or_transfer_requires_review",
+        "amount_minor": 16703,
+        "amount_plus_fee_minor": 16703,
+        "count": 3,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "code": "T0403",
+        "status": "R",
+        "category": "transfer_funding_or_withdrawal",
+        "amount_minor": -543700,
+        "amount_plus_fee_minor": -551980,
+        "count": 5,
+        "fee_present_count": 5,
+        "fee_signed_minor": -8280
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "code": "T1110",
+        "status": "P",
+        "category": "hold_reserve_or_release",
+        "amount_minor": -67858,
+        "amount_plus_fee_minor": -67858,
+        "count": 1,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-06",
+        "currency": "USD",
+        "code": "T1111",
+        "status": "D",
+        "category": "hold_reserve_or_release",
+        "amount_minor": 67858,
+        "amount_plus_fee_minor": 67858,
+        "count": 1,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "code": "T0000",
+        "status": "S",
+        "category": "ambiguous_incoming_payment",
+        "amount_minor": 70000,
+        "amount_plus_fee_minor": 67907,
+        "count": 1,
+        "fee_present_count": 1,
+        "fee_signed_minor": -2093
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "code": "T0001",
+        "status": "S",
+        "category": "payout_or_transfer_requires_review",
+        "amount_minor": 9757,
+        "amount_plus_fee_minor": 9757,
+        "count": 2,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "code": "T0403",
+        "status": "R",
+        "category": "transfer_funding_or_withdrawal",
+        "amount_minor": -183221,
+        "amount_plus_fee_minor": -186013,
+        "count": 5,
+        "fee_present_count": 5,
+        "fee_signed_minor": -2792
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "code": "T1110",
+        "status": "P",
+        "category": "hold_reserve_or_release",
+        "amount_minor": -192971,
+        "amount_plus_fee_minor": -192971,
+        "count": 1,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-07",
+        "currency": "USD",
+        "code": "T1111",
+        "status": "D",
+        "category": "hold_reserve_or_release",
+        "amount_minor": 192971,
+        "amount_plus_fee_minor": 192971,
+        "count": 1,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-08",
+        "currency": "USD",
+        "code": "T0001",
+        "status": "S",
+        "category": "payout_or_transfer_requires_review",
+        "amount_minor": 7835,
+        "amount_plus_fee_minor": 7835,
+        "count": 2,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-08",
+        "currency": "USD",
+        "code": "T0403",
+        "status": "R",
+        "category": "transfer_funding_or_withdrawal",
+        "amount_minor": -45090,
+        "amount_plus_fee_minor": -45777,
+        "count": 1,
+        "fee_present_count": 1,
+        "fee_signed_minor": -687
+      },
+      {
+        "month": "2026-09",
+        "currency": "USD",
+        "code": "T0000",
+        "status": "S",
+        "category": "ambiguous_incoming_payment",
+        "amount_minor": 6528,
+        "amount_plus_fee_minor": 6333,
+        "count": 1,
+        "fee_present_count": 1,
+        "fee_signed_minor": -195
+      },
+      {
+        "month": "2026-09",
+        "currency": "USD",
+        "code": "T0001",
+        "status": "S",
+        "category": "payout_or_transfer_requires_review",
+        "amount_minor": 14760,
+        "amount_plus_fee_minor": 14760,
+        "count": 1,
+        "fee_present_count": 0,
+        "fee_signed_minor": 0
+      },
+      {
+        "month": "2026-09",
+        "currency": "USD",
+        "code": "T0403",
+        "status": "R",
+        "category": "transfer_funding_or_withdrawal",
+        "amount_minor": -327892,
+        "amount_plus_fee_minor": -332886,
+        "count": 2,
+        "fee_present_count": 2,
+        "fee_signed_minor": -4994
+      }
+    ],
+    "unclassified_receipts_minor": 187536,
+    "mass_payment_credits_minor": 121496,
+    "linked_chargeback_minor": 70000,
+    "scope_note": "Reporting calls only; OAuth app token is not strictly read-only.",
+    "observed_account_name": "VS STAFFING LLC",
+    "entity_note": "Quentin confirmed on September 14, 2026 that PayPal pays out to Just Jarvis LLC. The earlier signed-in PayPal account label was VS STAFFING LLC. This preserves both facts; no legal account rename or ownership equivalence was verified."
+  },
+  "skool": {
+    "status": "unreconciled",
+    "checked_at": "2026-09-14T21:29:02.567477+00:00",
+    "note": "60 owner payout records retrieved across three communities. Receipt-level overlap with Stripe and PayPal remains unresolved; all Skool amounts are excluded from combined totals.",
+    "communities": [
+      {
+        "name": "AI For Business Mastermind",
+        "currency": "USD",
+        "currency_evidence": "A community payout invoice explicitly states Total (USD).",
+        "entity_note": "Just Jarvis LLC \u00b7 owner-confirmed September 14, 2026",
+        "coverage_note": "All 23 listed payouts reviewed across 2 pages; first payout Apr 8, 2026, latest Sep 9, 2026.",
+        "pages_reviewed": 2,
+        "payouts": [
+          {
+            "date": "2026-09-09",
+            "month": "2026-09",
+            "amount_minor": 169914
+          },
+          {
+            "date": "2026-09-02",
+            "month": "2026-09",
+            "amount_minor": 102444
+          },
+          {
+            "date": "2026-08-26",
+            "month": "2026-08",
+            "amount_minor": 142940
+          },
+          {
+            "date": "2026-08-19",
+            "month": "2026-08",
+            "amount_minor": 157056
+          },
+          {
+            "date": "2026-08-12",
+            "month": "2026-08",
+            "amount_minor": 142506
+          },
+          {
+            "date": "2026-08-05",
+            "month": "2026-08",
+            "amount_minor": 156865
+          },
+          {
+            "date": "2026-07-29",
+            "month": "2026-07",
+            "amount_minor": 181544
+          },
+          {
+            "date": "2026-07-22",
+            "month": "2026-07",
+            "amount_minor": 162928
+          },
+          {
+            "date": "2026-07-15",
+            "month": "2026-07",
+            "amount_minor": 223749
+          },
+          {
+            "date": "2026-07-08",
+            "month": "2026-07",
+            "amount_minor": 204852
+          },
+          {
+            "date": "2026-07-01",
+            "month": "2026-07",
+            "amount_minor": 125498
+          },
+          {
+            "date": "2026-06-24",
+            "month": "2026-06",
+            "amount_minor": 258471
+          },
+          {
+            "date": "2026-06-17",
+            "month": "2026-06",
+            "amount_minor": 159119
+          },
+          {
+            "date": "2026-06-10",
+            "month": "2026-06",
+            "amount_minor": 274495
+          },
+          {
+            "date": "2026-06-03",
+            "month": "2026-06",
+            "amount_minor": 98162
+          },
+          {
+            "date": "2026-05-27",
+            "month": "2026-05",
+            "amount_minor": 399834
+          },
+          {
+            "date": "2026-05-20",
+            "month": "2026-05",
+            "amount_minor": 422812
+          },
+          {
+            "date": "2026-05-13",
+            "month": "2026-05",
+            "amount_minor": 399381
+          },
+          {
+            "date": "2026-05-06",
+            "month": "2026-05",
+            "amount_minor": 356264
+          },
+          {
+            "date": "2026-04-29",
+            "month": "2026-04",
+            "amount_minor": 224732
+          },
+          {
+            "date": "2026-04-22",
+            "month": "2026-04",
+            "amount_minor": 551496
+          },
+          {
+            "date": "2026-04-15",
+            "month": "2026-04",
+            "amount_minor": 306580
+          },
+          {
+            "date": "2026-04-08",
+            "month": "2026-04",
+            "amount_minor": 40932
+          }
+        ],
+        "total_minor": 5262574,
+        "receipts_minor": null,
+        "refunds_minor": null,
+        "fees_minor": null,
+        "entity": "Just Jarvis LLC"
+      },
+      {
+        "name": "Real Estate Cheat Codes",
+        "currency": "USD",
+        "currency_evidence": "A community payout invoice explicitly states Total (USD).",
+        "entity_note": "Just Jarvis LLC \u00b7 owner-confirmed September 14, 2026",
+        "coverage_note": "All 36 payouts dated Jan 7\u2013Sep 9, 2026 reviewed; next page starts Dec 31, 2025.",
+        "pages_reviewed": 3,
+        "payouts": [
+          {
+            "date": "2026-09-09",
+            "month": "2026-09",
+            "amount_minor": 115075
+          },
+          {
+            "date": "2026-09-02",
+            "month": "2026-09",
+            "amount_minor": 33673
+          },
+          {
+            "date": "2026-08-26",
+            "month": "2026-08",
+            "amount_minor": 98516
+          },
+          {
+            "date": "2026-08-19",
+            "month": "2026-08",
+            "amount_minor": 87065
+          },
+          {
+            "date": "2026-08-12",
+            "month": "2026-08",
+            "amount_minor": 195355
+          },
+          {
+            "date": "2026-08-05",
+            "month": "2026-08",
+            "amount_minor": 90653
+          },
+          {
+            "date": "2026-07-29",
+            "month": "2026-07",
+            "amount_minor": 61069
+          },
+          {
+            "date": "2026-07-22",
+            "month": "2026-07",
+            "amount_minor": 42120
+          },
+          {
+            "date": "2026-07-15",
+            "month": "2026-07",
+            "amount_minor": 297019
+          },
+          {
+            "date": "2026-07-08",
+            "month": "2026-07",
+            "amount_minor": 83953
+          },
+          {
+            "date": "2026-07-01",
+            "month": "2026-07",
+            "amount_minor": 125912
+          },
+          {
+            "date": "2026-06-24",
+            "month": "2026-06",
+            "amount_minor": 42577
+          },
+          {
+            "date": "2026-06-17",
+            "month": "2026-06",
+            "amount_minor": 136377
+          },
+          {
+            "date": "2026-06-10",
+            "month": "2026-06",
+            "amount_minor": 113488
+          },
+          {
+            "date": "2026-06-03",
+            "month": "2026-06",
+            "amount_minor": 56104
+          },
+          {
+            "date": "2026-05-27",
+            "month": "2026-05",
+            "amount_minor": 271328
+          },
+          {
+            "date": "2026-05-20",
+            "month": "2026-05",
+            "amount_minor": 77363
+          },
+          {
+            "date": "2026-05-13",
+            "month": "2026-05",
+            "amount_minor": 183546
+          },
+          {
+            "date": "2026-05-06",
+            "month": "2026-05",
+            "amount_minor": 90518
+          },
+          {
+            "date": "2026-04-29",
+            "month": "2026-04",
+            "amount_minor": 72534
+          },
+          {
+            "date": "2026-04-22",
+            "month": "2026-04",
+            "amount_minor": 210466
+          },
+          {
+            "date": "2026-04-15",
+            "month": "2026-04",
+            "amount_minor": 160033
+          },
+          {
+            "date": "2026-04-08",
+            "month": "2026-04",
+            "amount_minor": 119005
+          },
+          {
+            "date": "2026-04-01",
+            "month": "2026-04",
+            "amount_minor": 78530
+          },
+          {
+            "date": "2026-03-25",
+            "month": "2026-03",
+            "amount_minor": 98385
+          },
+          {
+            "date": "2026-03-18",
+            "month": "2026-03",
+            "amount_minor": 136349
+          },
+          {
+            "date": "2026-03-11",
+            "month": "2026-03",
+            "amount_minor": 263661
+          },
+          {
+            "date": "2026-03-04",
+            "month": "2026-03",
+            "amount_minor": 74572
+          },
+          {
+            "date": "2026-02-25",
+            "month": "2026-02",
+            "amount_minor": 221652
+          },
+          {
+            "date": "2026-02-18",
+            "month": "2026-02",
+            "amount_minor": 129186
+          },
+          {
+            "date": "2026-02-11",
+            "month": "2026-02",
+            "amount_minor": 249442
+          },
+          {
+            "date": "2026-02-04",
+            "month": "2026-02",
+            "amount_minor": 146201
+          },
+          {
+            "date": "2026-01-28",
+            "month": "2026-01",
+            "amount_minor": 198597
+          },
+          {
+            "date": "2026-01-21",
+            "month": "2026-01",
+            "amount_minor": 159069
+          },
+          {
+            "date": "2026-01-14",
+            "month": "2026-01",
+            "amount_minor": 192134
+          },
+          {
+            "date": "2026-01-07",
+            "month": "2026-01",
+            "amount_minor": 166755
+          }
+        ],
+        "total_minor": 4878282,
+        "receipts_minor": null,
+        "refunds_minor": null,
+        "fees_minor": null,
+        "entity": "Just Jarvis LLC"
+      },
+      {
+        "name": "Wholesaling Houses 101",
+        "currency": "USD",
+        "entity_note": "Group owner Quentin Flores; legal entity unconfirmed",
+        "coverage_note": "One historical payout listed: Feb 18, 2026. Currently free; history must not be assumed zero. Current account balance \u2212$300.00 and a billing-declined notice were observed.",
+        "pages_reviewed": 1,
+        "payouts": [
+          {
+            "date": "2026-02-18",
+            "month": "2026-02",
+            "amount_minor": 26970
+          }
+        ],
+        "total_minor": 26970,
+        "receipts_minor": null,
+        "refunds_minor": null,
+        "fees_minor": null,
+        "balance_minor": -30000,
+        "billing_status": "Payment declined notice displayed; no billing action taken.",
+        "currency_evidence": "A community payout invoice explicitly states Total (USD)."
+      }
+    ],
+    "entity_confirmation": "Quentin explicitly identified Just Jarvis LLC for AI For Business Mastermind and Real Estate Cheat Codes. Wholesaling Houses 101 was not included in that question."
+  }
+}
