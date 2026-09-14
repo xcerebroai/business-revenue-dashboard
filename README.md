@@ -1,7 +1,7 @@
-# Private revenue dashboard
+# Private daily income dashboard
 
-Owner-only Sites dashboard for Quentin Flores. Static UI with reviewed aggregate evidence; no provider credentials, customer records or provider calls in the frontend.
+Owner-private Sites dashboard for Quentin Flores, combining Stripe, PayPal, Skool, BILL and Gusto incoming activity with Stripe financing and repayments.
 
-See `outputs/Revenue dashboard - operating note.md` for metric definitions, source cutoffs, exclusions, manual refresh, reconciliation limits and recovery.
+The frontend contains aggregate evidence only. Read `outputs/Daily income refresh - runbook.md` for the active 8 AM Central Codex heartbeat and signed-in browser procedure. Read `outputs/Revenue dashboard - operating note.md` for definitions, current totals, coverage, indexing lag and recovery.
 
-Validated source: `dist/`. Local finance collection and build scripts: `work/finance/` (ignored; preserved in the local recovery artifact). Build the snapshot with `python3 work/finance/build_snapshot.py`; verify with `node work/finance/verify.mjs` and `node --check dist/app.js`. New currencies and new Stripe categories require review before publication. Only privately publish through the configured Sites project; never change its audience as part of a refresh.
+API refresh: `python3 scripts/refresh_api.py`. Browser reports: validated full-source imports with `scripts/import_browser.py`. Build aggregates: `python3 scripts/build_dashboard.py`. Check: `node scripts/verify.mjs` and `node --check dist/app.js`. API secrets stay in existing local credential storage; never add them to source or static assets. Only publish through the existing owner-private Sites project in `.openai/hosting.json`.

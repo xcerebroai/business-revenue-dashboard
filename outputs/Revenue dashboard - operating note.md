@@ -1,56 +1,44 @@
-# Quentin Flores — private revenue dashboard
+# Quentin Flores — private income dashboard
 
 [Open the private dashboard](https://quentin-revenue.realquentinflores.chatgpt.site)
 
-Verified September 14, 2026. All amounts USD. This is a dated manual snapshot, not a live bank feed.
+Updated September 14, 2026. **Daily refresh is active at 8:00 AM Central.** Initial collection and the local API refresh pipeline succeeded. The first scheduled run has not yet occurred. Skool, BILL and Gusto depend on this Mac being available and the browser sessions staying signed in.
 
-| Included source | Entity / payout recipient | Gross receipts | Net payment activity |
-| --- | --- | ---: | ---: |
-| Stripe | Just Jarvis LLC | $132,328.50 | $120,701.78 |
-| PayPal — successful Express Checkout subset | Just Jarvis LLC payout recipient, owner-confirmed; observed account label VS STAFFING LLC | $49,008.68 | $46,695.25 |
-| **Combined included activity** | **Stripe + PayPal checkout subset** | **$181,337.18** | **$167,397.03** |
+| Source | Money coming in, 2026 YTD | After known deductions and repayments |
+| --- | ---: | ---: |
+| Stripe, including financing | $167,168.84 | $129,636.64 |
+| PayPal, all successful incoming payments | $52,099.00 | $49,729.49 |
+| Skool, three communities | $101,678.26 | $101,678.26 |
+| BILL, Paid receipts | $9,525.00 | $9,525.00 |
+| Gusto, both payer profiles | $5,181.91 | $5,181.91 |
+| **Combined** | **$335,653.01** | **$295,751.30** |
 
-Quentin confirmed Just Jarvis LLC receives payouts from Stripe, PayPal, AI For Business Mastermind and Real Estate Cheat Codes. PayPal’s previously observed signed-in account label is VS STAFFING LLC; this source label is preserved separately from the owner-confirmed recipient, and legal account-name alignment remains unverified. No account or payout settings were changed.
+All amounts USD. The combined incoming amount includes **$34,800 in Stripe financing advances**. Stripe repayments of **$25,903.11** reduce the after-deductions amount. Financing is incoming cash, not sales revenue; no remaining loan balance is inferred. This is an incoming-activity dashboard, not profit, tax reporting, accounting revenue, or a bank-balance reconciliation.
 
-The combined measure is a selected portfolio view, not consolidated accounting revenue, profit, MRR or bank cash. Stripe covers January 1 through September 14 at 19:31:21 UTC; its API query used whole seconds despite fractional metadata. PayPal was requested to that cutoff but its reporting index reached 19:29:59 UTC, an 82-second coverage gap. Month grouping uses America/Chicago. September is partial. Stripe activity is dated by balance transaction creation; PayPal by transaction initiation.
+## What changed
 
-## What is included
+Quentin requested all incoming money without brand or sales classification. The previous PayPal checkout-only gate is removed: successful general-payment credits ($1,875.36) and mass-payment credits ($1,214.96) are included alongside checkout receipts ($49,008.68). Attached fees total $1,654.51; a linked $700 chargeback and $15 fee are deducted once.
 
-Stripe has 8,472 balance entries across 85 pages and 68 monthly/category buckets. All source buckets reconcile amount minus fee to net. Gross charges are $132,328.50; refund principal $691.00; dispute debits $5,600.70; dispute reversals $40.43; charge processing fees $4,922.84; other included fees $452.61. Net payment activity is $120,701.78. Financing, repayments, payouts, reserve movements and balances are excluded.
+Skool’s **60 observed net payouts** are included: AI For Business Mastermind $52,625.74, Real Estate Cheat Codes $48,782.82 and Wholesaling Houses 101 $269.70. Each community’s invoice explicitly states USD. [Skool’s official FAQ](https://help.skool.com/article/86-subscriptions-faq) says member payments process on Skool’s merchant account and its payouts use a separate Stripe Express account; the collected owner Stripe account is Standard. Together with the Skool payout invoices, this supports including Skool payouts separately from owner Stripe charges. Gross Skool member receipts and fees are not estimated or deducted again.
 
-PayPal returned 150 balance-affecting records over nine complete monthly pages. Sixty successful T0006 Express Checkout credits total $49,008.68 with $1,598.43 in attached processing fees. A $700 T1201 chargeback links by exact PayPal reference to an original March checkout receipt; the additional dispute fee is $15.00. The defined checkout net is $46,695.25. No refund events appeared in the retrieved records. Missing fees on other record classes are not inferred.
+BILL has **nine Paid ePayments totaling $7,525** and **one recorded Cash receipt of $2,000**, for $9,525. All 81 historical rows loaded with date filters cleared; 11 are in 2026, including a $709.25 Void ePayment that is excluded. The cash detail records delivery July 27, 2026 even though its invoice due date is older; the dashboard follows the delivery date. No matching $2,000 Stripe/PayPal receipt appeared July 20–August 3. Inclusion relies on BILL’s recorded cash status; bank receipt and all possible cross-provider relationships are not independently verified. Unpaid invoices and scheduled payments do not count.
 
-## Held outside combined totals
+Gusto has **nine Complete Direct deposit payments**: seven March–September payments from DealMachine Operations, Inc. and two January–February payments from DealMachine Holdings LLC. Both profiles are under **Honestly Nevermind LLC**. Totals, not wage-plus-total, are counted. History was read through the prior year.
 
-- PayPal general incoming payments: $1,875.36 gross, $56.08 fees. Three notes refer to commissions/referrals ($940.36 gross, $28.12 fees); the remaining three total $935.00 gross. Notes alone do not finish attribution or overlap review.
-- PayPal mass-payment credits: $1,214.96. These may represent payouts or transfers; source attribution is unresolved.
-- PayPal withdrawals: $48,904.72 principal plus $744.77 reported fees. Source status R is preserved without interpretation. These are not sales.
-- Skool: 60 observed 2026 payouts totaling $101,678.26, kept separate from receipts. Payout receipts describe digital services licensed to Skool for resale. They do not expose original processor payment references or prove receipt in the destination bank.
+Quentin confirmed **Just Jarvis LLC** receives Stripe, PayPal and the two paid Skool communities’ payouts. PayPal’s observed account label remains **VS STAFFING LLC**. These are source labels, not a verified legal rename or consolidated-entity statement. Wholesaling Houses 101’s legal entity is still unconfirmed. These distinctions do not block the requested incoming-money view.
 
-| Skool community | Entity | Observed payouts | Coverage |
-| --- | --- | ---: | --- |
-| AI For Business Mastermind | Just Jarvis LLC, owner-confirmed | $52,625.74 | 23 listed payouts, April 8–September 9; both pages reviewed to disabled Next |
-| Real Estate Cheat Codes | Just Jarvis LLC, owner-confirmed | $48,782.82 | 36 payouts, January 7–September 9; following page begins December 31, 2025 |
-| Wholesaling Houses 101 | Legal entity unconfirmed | $269.70 | One February 18 payout; both pagination controls disabled |
+## Collection, limits and daily behavior
 
-Each community has a reviewed invoice explicitly denominated USD. The currently free Wholesaling Houses 101 group has historical money activity; current pricing cannot establish historical revenue. Its payout screen displayed a −$300.00 balance and a payment-declined notice. No billing change was made.
+Stripe and PayPal used the common whole-second cutoff **2026-09-14 22:26:59 UTC**. Stripe has 8,480 balance entries over 85 pages. PayPal has 150 balance-affecting records over nine complete query windows; its indexed-through timestamp is preserved on the dashboard and may lag the request. Browser sources show their actual check times. Months use America/Chicago; the current month is partial.
 
-## How to use and refresh
+Transfers to a bank, bank funding, holds, reserves and voids do not create additional income. Unknown provider codes/statuses remain outside the total for review. Refunds, disputes, reversals, known fees and financing repayments preserve source signs. Missing fee breakdowns on browser payout reports are not invented. The page checks for newly published data every five minutes and when reopened.
 
-Use Business/source and From/Through month to inspect an inclusive month range. Selecting Skool shows observed payouts separately; its gross member receipts, refunds and processing fees remain unavailable. The 2026 YTD button resets only the month range. No customer rows or credentials are in the dashboard.
+The active Codex heartbeat is `daily-income-dashboard`, attached to this existing task, daily at **08:00 America/Chicago**. It collects read-only data, preserves last-good amounts on failure, marks stale sources, validates, then republishes to the same owner-private Site. A failed source can stay visible while healthy sources update. No credentials are in the dashboard. BILL’s developer key alone is insufficient for API login; browser reporting is used. Gusto uses contractor-browser reporting. Provider sessions may require renewed sign-in. This is scheduled local reporting, not a cloud bank feed.
 
-For a refresh, ask Codex to refresh this private dashboard from the saved reporting credentials on this Mac. Retrieve Stripe and PayPal into new local aggregate evidence, validate pagination, currencies, category changes, cutoffs and arithmetic, and review disputed/refunded payment linkage. Reinspect or import Skool owner transaction/settlement exports. Keep the last successful snapshot if retrieval or validation fails, with a separate last-attempt error. Rebuild the aggregate snapshot, test filters, and privately publish a new version. A browser reload only reloads the saved report.
-
-No recurring automation is configured. A future proposal is a daily read-only collection and validation on this Mac, followed by private publication of valid aggregates and notifications only for failures or material changes. Skool requires an authorized export/import path before unattended reconciliation; no such automation is installed.
-
-## Exact next reconciliation work
-
-Obtain Skool's original transaction/settlement export with payment IDs and payout linkage. Compare those references with the Just Jarvis Stripe charge/balance sources and PayPal references before adding any Skool amount to portfolio receipts. Confirm Wholesaling Houses 101's legal entity. Classify PayPal's six general credits and 19 mass-payment credits using original invoices/remittance records. Obtain opening balances and bank statements for bank-cash reconciliation. Do not use member counts, posted prices, MRR or equal amounts/dates as proof of additional receipts.
+The exact procedure is in **Daily income refresh - runbook.md** beside this note. `scripts/refresh_api.py`, `scripts/import_browser.py`, `scripts/build_dashboard.py`, and `scripts/verify.mjs` implement collection, safe imports, aggregation and checks. Failed attempts are saved separately from last-good source evidence. New currencies require unit review before inclusion.
 
 ## Verification and recovery
 
-Exact Stripe and PayPal subset totals and all 45 valid month ranges pass. Browser checks verified source filters, August results, missing Skool metrics, and a 390px mobile layout without page overflow; no console errors were found. No credential values, customer identifiers, free-text transaction notes or bank-account identifiers are present in delivered aggregates. The provider secrets remain in the owner-authorized private note and local authentication memory only.
+Validated all five source totals, all 45 current month-range combinations, financing/repayment arithmetic, no-double-counting of balance transfers, source count preservation, stale-state behavior and syntax. Both API collectors completed a live refresh through the daily orchestrator. Browser history covered all required current-year pages/profiles. The scheduled wakeup itself remains unobserved until its first run.
 
-The task workspace is `/Users/quentinflores/Documents/Codex/2026-09-14/business-revenue-dashboard`. The private dashboard source is separate from the commercial Xcerebro website. `work/finance/` contains local collectors, aggregate evidence, the snapshot builder and verification scripts. `outputs/revenue-snapshot.json` is the portable aggregate data. `outputs/dashboard-recovery.zip` contains the site, reviewed local scripts and aggregate evidence; no credentials or customer rows. The brain maintenance helper backs canonical Markdown notes, not this standalone project or the private credentials. The separate recovery ZIP preserves this project's source and evidence locally.
-
-Source definitions: [Stripe reporting categories](https://docs.stripe.com/reports/reporting-categories), [PayPal transaction reporting](https://developer.paypal.com/api/transaction-search/v1/search-get), [PayPal event codes](https://developer.paypal.com/reports/reference/t-codes/).
+The workspace is `/Users/quentinflores/Documents/Codex/2026-09-14/business-revenue-dashboard`. `outputs/revenue-snapshot.json` contains the portable aggregate view; `outputs/dashboard-recovery.zip` preserves the dashboard, scripts, runbook and last-good aggregate evidence. Recovery excludes provider credentials, raw customer records and transaction IDs. Saved Stripe Keychain access and the private PayPal credential note remain local dependencies; the ZIP does not back up those secrets.
