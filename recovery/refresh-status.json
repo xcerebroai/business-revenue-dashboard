@@ -1,22 +1,25 @@
 {
   "gusto": {
-    "ok": true,
-    "attempted_at": "2026-09-14T22:21:43.883Z"
+    "ok": false,
+    "attempted_at": "2026-09-16T13:04:52.238682+00:00",
+    "message": "Gusto is signed out in Chrome. Sign in to refresh; last verified amounts retained."
   },
   "bill": {
-    "ok": true,
-    "attempted_at": "2026-09-14T22:21:43.883Z"
+    "ok": false,
+    "attempted_at": "2026-09-16T13:04:52.164522+00:00",
+    "message": "BILL is signed out in Chrome. Sign in to refresh; last verified amounts retained."
   },
   "skool": {
-    "ok": true,
-    "attempted_at": "2026-09-14T21:29:02.567477+00:00"
+    "ok": false,
+    "attempted_at": "2026-09-16T13:25:53.911758+00:00",
+    "message": "Complete Skool refresh blocked: Wholesaling Houses 101 payout access needs explicit approval. Last complete three-community report retained."
   },
   "stripe": {
     "ok": true,
-    "attempted_at": "2026-09-14T22:26:59+00:00"
+    "attempted_at": "2026-09-16T13:02:42+00:00"
   },
   "paypal": {
     "ok": true,
-    "attempted_at": "2026-09-14T22:26:59+00:00"
+    "attempted_at": "2026-09-16T13:02:42+00:00"
   }
 }

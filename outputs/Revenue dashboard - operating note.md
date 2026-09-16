@@ -2,18 +2,18 @@
 
 [Open the private dashboard](https://quentin-revenue.realquentinflores.chatgpt.site)
 
-Updated September 14, 2026. **Daily refresh is active at 8:00 AM Central.** Initial collection and the local API refresh pipeline succeeded. The first scheduled run has not yet occurred. Skool, BILL and Gusto depend on this Mac being available and the browser sessions staying signed in.
+Updated September 16, 2026. **Daily refresh is active at 8:00 AM Central.** Today's scheduled run refreshed Stripe and PayPal through 13:02:42 UTC. Skool, BILL and Gusto retain their September 14 amounts and original check dates, marked stale. BILL and Gusto require Chrome sign-in. Complete Skool collection is blocked pending explicit authorization for Wholesaling Houses 101; partial results were not imported.
 
 | Source | Money coming in, 2026 YTD | After known deductions and repayments |
 | --- | ---: | ---: |
-| Stripe, including financing | $167,168.84 | $129,636.64 |
+| Stripe, including financing | $168,919.27 | $130,970.37 |
 | PayPal, all successful incoming payments | $52,099.00 | $49,729.49 |
 | Skool, three communities | $101,678.26 | $101,678.26 |
 | BILL, Paid receipts | $9,525.00 | $9,525.00 |
 | Gusto, both payer profiles | $5,181.91 | $5,181.91 |
-| **Combined** | **$335,653.01** | **$295,751.30** |
+| **Combined** | **$337,403.44** | **$297,085.03** |
 
-All amounts USD. The combined incoming amount includes **$34,800 in Stripe financing advances**. Stripe repayments of **$25,903.11** reduce the after-deductions amount. Financing is incoming cash, not sales revenue; no remaining loan balance is inferred. This is an incoming-activity dashboard, not profit, tax reporting, accounting revenue, or a bank-balance reconciliation.
+All amounts USD. The combined incoming amount includes **$34,800 in Stripe financing advances**. Stripe repayments of **$26,253.18** reduce the after-deductions amount. Financing is incoming cash, not sales revenue; no remaining loan balance is inferred. This is an incoming-activity dashboard, not profit, tax reporting, accounting revenue, or a bank-balance reconciliation.
 
 ## What changed
 
@@ -29,7 +29,7 @@ Quentin confirmed **Just Jarvis LLC** receives Stripe, PayPal and the two paid S
 
 ## Collection, limits and daily behavior
 
-Stripe and PayPal used the common whole-second cutoff **2026-09-14 22:26:59 UTC**. Stripe has 8,480 balance entries over 85 pages. PayPal has 150 balance-affecting records over nine complete query windows; its indexed-through timestamp is preserved on the dashboard and may lag the request. Browser sources show their actual check times. Months use America/Chicago; the current month is partial.
+Stripe and PayPal used the common whole-second cutoff **2026-09-16 13:02:42 UTC**. Stripe has 8,579 balance entries over 86 pages. PayPal has 150 balance-affecting records over nine complete query windows; its indexed-through timestamp is preserved on the dashboard and may lag the request. Browser sources show their actual check times. Months use America/Chicago; the current month is partial.
 
 Transfers to a bank, bank funding, holds, reserves and voids do not create additional income. Unknown provider codes/statuses remain outside the total for review. Refunds, disputes, reversals, known fees and financing repayments preserve source signs. Missing fee breakdowns on browser payout reports are not invented. The page checks for newly published data every five minutes and when reopened.
 
@@ -39,10 +39,18 @@ The exact procedure is in **Daily income refresh - runbook.md** beside this note
 
 ## Verification and recovery
 
-Validated all five source totals, all 45 current month-range combinations, financing/repayment arithmetic, no-double-counting of balance transfers, source count preservation, stale-state behavior and syntax. Both API collectors completed a live refresh through the daily orchestrator. Browser history covered all required current-year pages/profiles. The scheduled wakeup itself remains unobserved until its first run.
+Validated all five source totals, all 45 current month-range combinations, financing/repayment arithmetic, no-double-counting of balance transfers, source count preservation, stale-state behavior and syntax. Both API collectors completed a live refresh through the daily orchestrator. Browser history covered all required current-year pages/profiles. The September 16 scheduled collection refreshed both API sources; all three browser sources retained their previous complete reports. Publication must be confirmed separately from collection.
 
 The workspace is `/Users/quentinflores/Documents/Codex/2026-09-14/business-revenue-dashboard`. `outputs/revenue-snapshot.json` contains the portable aggregate view; `outputs/dashboard-recovery.zip` preserves the dashboard, scripts, runbook and last-good aggregate evidence. Recovery excludes provider credentials, raw customer records and transaction IDs. Saved Stripe Keychain access and the private PayPal credential note remain local dependencies; the ZIP does not back up those secrets.
 
 ## GitHub storage
 
 The dashboard source, refresh scripts, reports and sanitized recovery snapshots are saved in the private repository [xcerebroai/business-revenue-dashboard](https://github.com/xcerebroai/business-revenue-dashboard). The existing daily automation also exports and pushes validated updates there. The live dashboard remains on its owner-private Sites URL. Credentials and browser sessions stay local; no GitHub Pages or Actions refresh is configured. A fresh clone can restore aggregate evidence with `python3 scripts/recovery.py restore` and verify it with `node scripts/verify.mjs`.
+
+## Owner decision — September 15, 2026
+
+Quentin stopped the proposed GitHub Actions migration and wants an AI agent to handle reporting after Business Brain is connected to it. No Actions workflow, cloud secrets or new dashboard endpoint were deployed. The existing daily Codex schedule is unchanged and still uses Codex usage. Draft adapter edits were saved as an ignored local patch and removed from the working collectors. [[Resume - Income Dashboard Agent Integration]] records the exact state and next actions. The next chat is for the next owner-selected Business Brain project, not automatic continuation of the migration.
+
+## September 16 collection result
+
+Stripe incoming increased $1,750.43; PayPal was unchanged. The combined after-deductions amount increased $1,333.73. AI For Business Mastermind and Real Estate Cheat Codes showed new payouts of $1,756.07 and $1,800.47, respectively; these partial Skool findings are not in the published totals because the required third-community check was blocked by automatic approval review. The requested approval and BILL/Gusto sign-ins remain pending. No account settings, access audience or schedules changed.

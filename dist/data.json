@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "prepared_at": "2026-09-14T22:31:27.675728+00:00",
+  "prepared_at": "2026-09-16T13:25:53.978234+00:00",
   "timezone": "America/Chicago",
   "currency": "USD",
   "period_start": "2026-01-01",
-  "period_end": "2026-09-14",
+  "period_end": "2026-09-16",
   "sources": [
     {
       "id": "stripe",
@@ -12,9 +12,9 @@
       "mode": "API",
       "account": "Just Jarvis LLC",
       "note": "Charges and financing received; bank payouts are transfers.",
-      "checked_at": "2026-09-14T22:27:45.924273Z",
+      "checked_at": "2026-09-16T13:03:39.830281Z",
       "period_start": "2026-01-01T06:00:00Z",
-      "period_end_exclusive": "2026-09-14T22:26:59Z",
+      "period_end_exclusive": "2026-09-16T13:02:42Z",
       "indexed_through": null,
       "status": "current",
       "rows": [
@@ -18821,10 +18821,166 @@
           "month": "2026-09",
           "source": "stripe",
           "category": "financing_paydown"
+        },
+        {
+          "date": "2026-09-14",
+          "currency": "USD",
+          "kind": "excluded",
+          "amount_minor": -111952,
+          "fee_minor": 0,
+          "net_minor": -111952,
+          "count": 2,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "payout"
+        },
+        {
+          "date": "2026-09-14",
+          "currency": "USD",
+          "kind": "excluded",
+          "amount_minor": -50000,
+          "fee_minor": 0,
+          "net_minor": -50000,
+          "count": 1,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "payout_minimum_balance_hold"
+        },
+        {
+          "date": "2026-09-14",
+          "currency": "USD",
+          "kind": "excluded",
+          "amount_minor": 50000,
+          "fee_minor": 0,
+          "net_minor": 50000,
+          "count": 1,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "payout_minimum_balance_release"
+        },
+        {
+          "date": "2026-09-15",
+          "currency": "USD",
+          "kind": "income",
+          "amount_minor": 170113,
+          "fee_minor": 6138,
+          "net_minor": 163975,
+          "count": 39,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "charge"
+        },
+        {
+          "date": "2026-09-15",
+          "currency": "USD",
+          "kind": "deduction",
+          "amount_minor": -136,
+          "fee_minor": 5,
+          "net_minor": -141,
+          "count": 2,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "fee"
+        },
+        {
+          "date": "2026-09-15",
+          "currency": "USD",
+          "kind": "repayment",
+          "amount_minor": -34021,
+          "fee_minor": 0,
+          "net_minor": -34021,
+          "count": 39,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "financing_paydown"
+        },
+        {
+          "date": "2026-09-15",
+          "currency": "USD",
+          "kind": "excluded",
+          "amount_minor": -117054,
+          "fee_minor": 0,
+          "net_minor": -117054,
+          "count": 3,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "payout"
+        },
+        {
+          "date": "2026-09-15",
+          "currency": "USD",
+          "kind": "excluded",
+          "amount_minor": -50000,
+          "fee_minor": 0,
+          "net_minor": -50000,
+          "count": 1,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "payout_minimum_balance_hold"
+        },
+        {
+          "date": "2026-09-15",
+          "currency": "USD",
+          "kind": "excluded",
+          "amount_minor": 50000,
+          "fee_minor": 0,
+          "net_minor": 50000,
+          "count": 1,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "payout_minimum_balance_release"
+        },
+        {
+          "date": "2026-09-16",
+          "currency": "USD",
+          "kind": "income",
+          "amount_minor": 4930,
+          "fee_minor": 262,
+          "net_minor": 4668,
+          "count": 4,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "charge"
+        },
+        {
+          "date": "2026-09-16",
+          "currency": "USD",
+          "kind": "deduction",
+          "amount_minor": -122,
+          "fee_minor": 0,
+          "net_minor": -122,
+          "count": 1,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "fee"
+        },
+        {
+          "date": "2026-09-16",
+          "currency": "USD",
+          "kind": "repayment",
+          "amount_minor": -986,
+          "fee_minor": 0,
+          "net_minor": -986,
+          "count": 4,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "financing_paydown"
+        },
+        {
+          "date": "2026-09-16",
+          "currency": "USD",
+          "kind": "excluded",
+          "amount_minor": -2824,
+          "fee_minor": 0,
+          "net_minor": -2824,
+          "count": 1,
+          "month": "2026-09",
+          "source": "stripe",
+          "category": "payout"
         }
       ],
-      "record_count": 8480,
-      "coverage": "8,480 balance entries across 85 pages; complete YTD retrieval.",
+      "record_count": 8579,
+      "coverage": "8,579 balance entries across 86 pages; complete YTD retrieval.",
       "groups": []
     },
     {
@@ -18833,10 +18989,10 @@
       "mode": "API",
       "account": "Just Jarvis LLC \u00b7 account label VS STAFFING LLC",
       "note": "All successful incoming payments, including general and mass payments.",
-      "checked_at": "2026-09-14T22:26:59.287915Z",
+      "checked_at": "2026-09-16T13:02:42.357490Z",
       "period_start": "2026-01-01T06:00:00Z",
-      "period_end_exclusive": "2026-09-14T22:26:59Z",
-      "indexed_through": "2026-09-14T20:29:59Z",
+      "period_end_exclusive": "2026-09-16T13:02:42Z",
+      "indexed_through": "2026-09-16T10:29:59Z",
       "status": "current",
       "rows": [
         {
@@ -20258,7 +20414,7 @@
       "period_start": "2026-01-01T00:00:00-06:00",
       "period_end_exclusive": "2026-09-14T21:29:02.567477+00:00",
       "indexed_through": null,
-      "status": "current",
+      "status": "stale",
       "rows": [
         {
           "date": "2026-01-07",
@@ -21047,7 +21203,8 @@
         "AI For Business Mastermind",
         "Real Estate Cheat Codes",
         "Wholesaling Houses 101"
-      ]
+      ],
+      "issue": "Complete Skool refresh blocked: Wholesaling Houses 101 payout access needs explicit approval. Last complete three-community report retained."
     },
     {
       "id": "bill",
@@ -21059,7 +21216,7 @@
       "period_start": "2026-01-01T00:00:00-06:00",
       "period_end_exclusive": "2026-09-14T22:21:43.883Z",
       "indexed_through": null,
-      "status": "current",
+      "status": "stale",
       "rows": [
         {
           "date": "2026-01-23",
@@ -21196,7 +21353,8 @@
       ],
       "record_count": 11,
       "coverage": "All 81 history records loaded with date filters cleared; 11 are dated 2026. Includes 9 paid ePayments and 1 recorded cash receipt; excludes one voided ePayment. Cash delivery date July 27, 2026 follows BILL\u2019s recorded date. Unpaid invoices are not incoming money.",
-      "groups": []
+      "groups": [],
+      "issue": "BILL is signed out in Chrome. Sign in to refresh; last verified amounts retained."
     },
     {
       "id": "gusto",
@@ -21208,7 +21366,7 @@
       "period_start": "2026-01-01T00:00:00-06:00",
       "period_end_exclusive": "2026-09-14T22:21:43.883Z",
       "indexed_through": null,
-      "status": "current",
+      "status": "stale",
       "rows": [
         {
           "date": "2026-01-08",
@@ -21333,7 +21491,8 @@
       "groups": [
         "DealMachine Operations, Inc.",
         "DealMachine Holdings LLC"
-      ]
+      ],
+      "issue": "Gusto is signed out in Chrome. Sign in to refresh; last verified amounts retained."
     }
   ],
   "schedule": {
@@ -21342,7 +21501,7 @@
     "timezone": "America/Chicago",
     "hour": 8,
     "automation_id": "daily-income-dashboard",
-    "first_scheduled_run_observed": false
+    "first_scheduled_run_observed": true
   },
   "basis_note": "Payments and financing received, plus net Skool payouts and completed BILL/Gusto receipts. Bank transfers are not counted a second time. This is incoming activity, not a bank balance or profit."
 }

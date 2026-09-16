@@ -4,5 +4,5 @@
   "timezone": "America/Chicago",
   "hour": 8,
   "automation_id": "daily-income-dashboard",
-  "first_scheduled_run_observed": false
+  "first_scheduled_run_observed": true
 }
